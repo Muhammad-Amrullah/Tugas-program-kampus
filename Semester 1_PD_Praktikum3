@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+main()
+{
+    int a;
+    printf("Input Nilai A :");
+   	scanf("%d", &a);
+	if(a==0) 
+	{
+		//2. ketika users memberi input 0 maka hasilnya akan keluar nol.
+    	printf("Nilai A = nol ");
+    }
+    else
+	if(a>=0)
+    {
+    	//1. ketika users memberi input 1 maka hasilnya akan keluar positif.
+    	printf("Nilai A Positif");
+    }
+    else
+    {
+    	//3. ketika users memberi input -1 maka hasilnya akan negatif. 
+        printf("Nilai A Negatif");
+    }
+    printf("\n");
+}
