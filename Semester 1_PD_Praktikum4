@@ -1,0 +1,34 @@
+#include <stdio.h>
+int main(void)
+{
+int pilih;
+printf("Pilih Lah Menu Makanan favorit Mu (1 - 5)\n");
+ printf("1.Bakso\n");
+ printf("2.Pempek \n");
+ printf("3.Siomay \n");
+ printf("4.Nasi Padang\n");
+ printf("5.Sate Padang\n");
+ printf("Masukan pilihan mu (1 - 5) : \n");
+ scanf("%c",&pilih);
+ switch (pilih) {
+ case '1':
+ printf("Bakso, Terimah Kasih Sudah Memilih \n");
+ break;
+ case '2':
+ printf("Pempek, Terimah Kasih Sudah Memilih \n");
+ break;
+ case '3':
+ printf("Siomay, Terimah Kasih Sudah Memilih \n");
+ break;
+ case '4':
+ printf("Nasi Padang, Terimah Kasih Sudah Memilih \n");
+ break;
+ case '5':
+Laporan Praktikum PSTI 5
+ printf("Sate Padang, Terimah Kasih Sudah Memilih \n");
+ break;
+ default:
+ printf("Maaf, Input nilai tidak sesuai\n");
+ }
+ return 0;
+}
